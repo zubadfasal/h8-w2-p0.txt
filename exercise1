@@ -1,0 +1,65 @@
+1.NEWTON SECOND LAW
+
+
+STORE "m" with "600"
+STORE "a" with "2"
+STORE "F" 
+
+CALCULATE m times a
+SET F with calculation result
+
+DISPLAY F
+
+
+2. TAHUN KABISAT
+START
+READ "tahun"
+  IF("tahun" mod 4=0) && ("tahun" mod 100!=0)
+WRITE "tahun kabisat"
+  OR((tahun mod 4=0) && (tahun mod 100=0) && (Tahun mod 400=0))
+WRITE "tahunkabisat"
+  ELSE 
+WRITE "bukan tahun kabisat"
+END
+
+
+3.LAUNDRY DAY
+
+Algoritma:
+Menghitung jumlah Baju yang dimasukkan ke mesin cuci dari 0-20 
+1. Buat catatan dimulai dari 0 untuk mencapai baju yang dihitung 
+2. selama baju belum sampai 20 maka lanjut ke step 3 bila tidak lanjut ke step 4
+3. tambahkan catatan baju sebanyak 1 setiap baju yang dimasukkan ke mesin cuci.kembali ke step 3
+4. Menghitung Baju selesai 
+
+Pseucode:
+STORE "counter" with 0
+WHILE "counter" less than 20 THEN
+  SET "counter" with counter plus1
+END WHILE  
+DISPLAY "hitung baju selesai"
+
+
+4. PERIKSA KUKU
+
+STORE "siswa" to 0
+
+WHILE "siswa" < 40
+  DISPLAY "siswa"
+  CALCULATE "siswa" mod 2
+  STORE "reminder" to the result of calculation
+  IF "reminder" equal to 1
+  DISPLAY ("Hukum murid ke" + ("siswa" plus 1))
+  ELSE
+  DISPLAY ("Puji murid ke" + ("siswa" plus 1))
+
+   
+
+   
+  IF reminder 
+
+
+IF 
+   
+
+
